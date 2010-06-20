@@ -152,7 +152,8 @@ label {
   padding-bottom:20px;
   padding-top:17px;
   margin-top:-22px;
-  background:-moz-linear-gradient(-50deg, #eee, #ccc);
+  background-image:-moz-linear-gradient(-50deg, #eee, #ccc);
+  background-image:-webkit-gradient(linear, 10% 0%, 0% 100%, from(#eee), to(#ccc));
 }
 #primary label {
   display:none
