@@ -1,0 +1,171 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 3.0.0
+build: 1549
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{container:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+/* end yahoo reset */
+
+/* styles */
+body {
+  margin:15px 30px;
+  color:#333
+}
+em {
+  font-style:italic
+}
+#site-title {
+  float:left;
+  font-size:497%
+}
+#site-title a,
+.menu ul a {
+  text-decoration:none;
+  color:#333
+}
+.menu {
+  font-size:167%;
+  font-weight:800;
+  margin:1em 0
+}
+.menu ul li.current_page_item a {
+  color:#666
+}
+#site-description {
+  float:right;
+  font-size:174%;
+  width:230px;
+  margin-bottom:-3em;
+  font-weight:300
+}
+.skip-link {
+  display:none
+}
+.menu {
+  clear:both;
+  float:left;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding-top:20px;
+  padding-bottom:20px;
+  width:100%;
+}
+.menu li {
+  float:left;
+  margin-right:1em
+}
+#container {
+  font-family:Georgia, serif;
+  clear:left;
+  float:left;
+  font-size:123.1%;
+  line-height:146.5%;
+  width:100%;
+  margin-right:-250px
+}
+#container #content {
+  margin-right:280px
+}
+#container #content p,
+#container .post li, #container .page li {
+  margin-bottom:1em
+}
+#container .post li, #container .page li {
+  list-style-type:disc;
+  margin-left:2em
+}
+.nav-next, .nav-previous {
+  float:right
+}
+#content h2, #content .entry-title, #content #reply-title, .page-title, #comments-title {
+  font-size:197%;
+  margin-bottom:.5em
+}
+.page-title {
+  margin-bottom:1em
+}
+.entry-meta {
+  margin-bottom:1em;
+  font-size:85%;
+  color:#666
+}
+#content #reply-title {
+  clear:right
+}
+.post {
+  margin-bottom:3em
+}
+label {
+  display:block;
+  float:left;
+}
+#content #comments {
+  padding-top:2em
+}
+#content #comments li {
+  margin-bottom:2em
+}
+#content #comments .children {
+  padding-top:1em;
+  padding-left:2em
+} 
+#content #comments form p {
+  clear:both;
+  width:30em;
+  min-height:2em
+}
+#content #comments form p.comment-notes,
+#content #comments form p.form-allowed-tags {
+  width:100%
+}
+#content #comments form p.form-allowed-tags {
+  padding-top:1em
+}
+#content #comments form p input,
+#content #comments form p textarea {
+  float:right
+}
+#content #comments form p.form-submit input {
+  float:none
+}
+#primary {
+  float:right;
+  width:212px;
+  border-left:1px solid #ccc;
+  border-bottom:1px solid #999;
+  border-right:1px solid #999;
+  padding-left:18px;
+  padding-right:18px;
+  padding-bottom:20px;
+  padding-top:17px;
+  margin-top:-22px;
+  background:-moz-linear-gradient(-50deg, #eee, #ccc);
+}
+#primary label {
+  display:none
+}
+#primary #s {
+  width:135px
+}
+#primary li {
+  margin:.5em 0
+}
+#primary h3 {
+  margin-top:1em;
+  font-size:167%
+}
+#footer {
+  clear:both;
+  position:relative;
+  top:2em;
+  border-top:1px solid #ccc;
+  padding-bottom:2em
+}
+#footer #colophon {
+  display:block;
+  padding-top:1em;
+  font-size:77%
+}
