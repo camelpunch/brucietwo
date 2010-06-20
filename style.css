@@ -77,8 +77,18 @@ em {
   list-style-type:disc;
   margin-left:2em
 }
-.nav-next, .nav-previous {
+#nav-above {
+  padding-bottom:1em;
+  overflow:hidden
+}
+.nav-previous {
+  float:left
+}
+.nav-next {
   float:right
+}
+.post {
+  clear:both;
 }
 #content h2, #content .entry-title, #content #reply-title, .page-title, #comments-title {
   font-size:197%;
