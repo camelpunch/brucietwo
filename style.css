@@ -85,6 +85,7 @@ strong {
   overflow:hidden
 }
 #nav-below {
+  clear:both;
   margin-top:-1em;
   padding-bottom:2em
 }
@@ -114,6 +115,20 @@ strong {
 }
 .post {
   margin-bottom:3em
+}
+div.sociable {
+  float:right;
+  margin:0 0 2em 0
+}
+div.sociable .sociable_tagline {
+  display:none;
+}
+#container .post .sociable li {
+  list-style-type:none;
+  margin:0
+}
+.entry-utility {
+  float:left
 }
 label {
   display:block;
