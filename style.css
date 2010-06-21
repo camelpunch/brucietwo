@@ -100,7 +100,7 @@ strong {
 }
 #content h2, #content .entry-title, #content #reply-title, .page-title, #comments-title {
   font-size:197%;
-  margin-bottom:.5em
+  line-height:116%;
 }
 .page-title {
   margin-bottom:1em
