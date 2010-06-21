@@ -125,7 +125,8 @@ div.sociable .sociable_tagline {
 }
 #container .post .sociable li {
   list-style-type:none;
-  margin:0
+  margin:0 7px 0 0;
+  float:left
 }
 .entry-utility {
   float:left
