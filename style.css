@@ -114,7 +114,8 @@ strong {
   clear:right
 }
 .post {
-  margin-bottom:3em
+  margin-bottom:3em;
+  overflow:hidden
 }
 div.sociable {
   float:right;
