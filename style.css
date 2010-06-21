@@ -17,6 +17,9 @@ body {
 em {
   font-style:italic
 }
+strong {
+  font-weight:800
+}
 #site-title {
   float:left;
   font-size:497%
