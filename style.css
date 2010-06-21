@@ -81,6 +81,10 @@ em {
   padding-bottom:1em;
   overflow:hidden
 }
+#nav-below {
+  margin-top:-1em;
+  padding-bottom:2em
+}
 .nav-previous {
   float:left
 }
@@ -151,7 +155,7 @@ label {
   padding-right:18px;
   padding-bottom:20px;
   padding-top:17px;
-  margin-top:-22px;
+  margin-top:-21px;
   background-image:-moz-linear-gradient(-50deg, #eee, #ccc);
   background-image:-webkit-gradient(linear, 10% 0%, 0% 100%, from(#eee), to(#ccc));
 }
