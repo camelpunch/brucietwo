@@ -98,9 +98,26 @@ strong {
 .post {
   clear:both;
 }
-#content h2, #content .entry-title, #content #reply-title, .page-title, #comments-title {
+#content h2, 
+#content h3, 
+#content .entry-title, 
+#content #reply-title, 
+.page-title, 
+#comments-title {
   font-size:197%;
   line-height:116%;
+}
+#content .entry-content h3 {
+  font-size:138.5%;
+  font-weight:600
+}
+.entry-content h2 {
+  margin-top:1em;
+  margin-bottom:.1em
+}
+.entry-content h3 {
+  margin-top:1em;
+  margin-bottom:.2em
 }
 .page-title {
   margin-bottom:1em
