@@ -24,7 +24,7 @@
 
 			<div id="site-info">
 <p>
-Copyright © 2010 Andrew Bruce
+Copyright © <?= date('Y') ?> Andrew Bruce
 </p>
 <p>
 <a href="http://www.camelpunch.com/">Web Development by Camel Punch</a>
