@@ -1,4 +1,19 @@
 /*
+Theme Name: Brucie Two
+Theme URI: http://blog.andrewbruce.net/
+Description: Brucie's theme
+Author: Andrew Bruce
+Author URI: http://blog.andrewbruce.net/
+Version: 1.0
+Tags: brucie, boring
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+/*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.net/yui/license.txt
@@ -98,11 +113,11 @@ strong {
 .post {
   clear:both;
 }
-#content h2, 
-#content h3, 
-#content .entry-title, 
-#content #reply-title, 
-.page-title, 
+#content h2,
+#content h3,
+#content .entry-title,
+#content #reply-title,
+.page-title,
 #comments-title {
   font-size:197%;
   line-height:116%;
@@ -162,7 +177,7 @@ label {
 #content #comments .children {
   padding-top:1em;
   padding-left:2em
-} 
+}
 #content #comments form p {
   clear:both;
   width:30em;
